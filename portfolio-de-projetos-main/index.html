@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Ashley" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou a Ashley (UnPolyLua)</p>
+        <h1>Eu Programo Jogos por diversão!</h1>
+        <p></p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HaxeFlixel</p>
+            <p class="badge bg-secondary">Lua</p>
+            <p class="badge bg-secondary">Python</p>
+            <p class="badge bg-secondary">Luau (Roblox Lua Fork)</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do Projeto no Roblox">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Afternight: Um Jogo que foi minha Terapia</h5>
+                        <p class="card-text">Uma recriação do jogo Friday Night Funkin' para Roblox, Sendo bem mais polido internamente
+                            , com novas pessoas atrás do projeto e com uma Engine propría feita com carinho. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            Project Afternight</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do Projeto no Roblox">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Funk Night: O meu primeiro Jogo de sucesso</h5>
+                        <p class="card-text">Este Jogo é outra recriação do Friday Night Funkin' mas ele é baseado na falecida Engine YAFN (Yet Another Funk Night).
+                             Ela foi feita com a permissão dos criadores originais da Engine do YAFN e foi um dos jogos que trabalhei por mais tempo.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            Project Funk Night</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch
+                        </h5>
+                        <p class="card-text">EEste projeto Scratch cria uma experiência interativa educativa sobre
+                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+                            forma da Terra através de cenários dinâmicos e diálogos informativos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Afternight: Um Jogo que foi minha Terapia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um jogo do Roblox que trabalhei por 2 anos antes de sair, ele é baseado em Luau e foi feito por diversão.
+                        Sou a pessoa que trabalhou no sistema de Ratings, Modchart, Custom Song Events e entre outros.
+                        Foi tambêm um dos jogos que mais fez sucesso na minha carreira.</p>
+                    <p>A gameplay dele é extremamente parecida com Friday Night Funkin' com sua Engine sendo basicamente uma fork
+                         modificada da engine oficial do FNF.</p>
+                    <p>O que define ele de outros jogos de ROFNF no Roblox são seus eventos especiaís em varias musicas
+                         de outros mods. Sendo um dos jogos mais ricos em modificações na gameplay no Roblox.</p>
+                    <p>Infelizmente não estou mais associado a este projeto.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Banner do Jogo no Roblox">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.roblox.com/games/13042495892/Project-Afternight">Ver Jogo no Roblox</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Project Funk Night: O meu primeiro Jogo de sucesso</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este Jogo foi uma modificação da Engine do YAFN, onde que trabalhei na adição de novas
+                     Musicas, Custom Rating Position, Modchart/Modchart API, Permissão de Mods e mais.</p>
+                     <p>Entrei no começo de 2021 como um Developer, que depois virei um Head Developer que no final fiquei na posição de Owner</p>
+                     <p>Infelizmente ele foi descontinuado no final do ano passado por falta de motivação entre o time</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Banner do Jogo no Roblox">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.roblox.com/games/13022699699/Project-Funk-Night">Ver Jogo no Roblox</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto é uma aplicação educativa interativa focada em ensinar conceitos básicos de
+                        astronomia. Utiliza uma série de scripts associados a diferentes atores (sprites) e
+                        cenários para criar uma experiência de aprendizado envolvente. O objetivo é familiarizar
+                        os usuários com tópicos como as fases da Lua, eclipses, a visibilidade de diferentes
+                        constelações dependendo da localização geográfica na Terra, e a forma da Terra, através
+                        de interações e visualizações dinâmicas.</p>
+                    <p>Cada ator no projeto possui scripts que definem seu comportamento em resposta a eventos
+                        específicos, como o início do programa (quando a bandeira é clicada), cliques do
+                        usuário, ou mensagens recebidas. Estes eventos desencadeiam ações como mudanças de
+                        cenário, movimentos de atores, exibição ou ocultação de atores, e a apresentação de
+                        diálogos informativos. Por exemplo, ao clicar em determinados atores, os usuários podem
+                        "receber" uma prova, o que leva a uma mudança de cenário e a exibição de informações
+                        relevantes ou a visualização de uma constelação específica.</p>
+                    <p>A importância das ferramentas utilizadas, como os blocos de código visual do Scratch,
+                        reside na sua acessibilidade e na capacidade de engajar aprendizes de diferentes idades
+                        no pensamento computacional e na exploração de conceitos científicos de forma
+                        interativa. O uso de cenários, movimentos, e diálogos dinâmicos ajuda a criar uma
+                        experiência de aprendizado mais rica e memorável, encorajando os usuários a explorar e
+                        interagir com o conteúdo de maneira ativa, em vez de passivamente.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato comigo!</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/TheUnPolyLua/">GitHub</a>
+            <i class="bi bi-youtube"></i>
+            <a href="https://youtube.com/c/GDRafinhagamer">YouTube</a>
+            <i class="bi bi-twitter"></i>
+            <a href="https://twitter.com/UnPolyLua">Twitter (X)</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por UnPolyLua</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
